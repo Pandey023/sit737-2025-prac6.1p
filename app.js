@@ -6,7 +6,7 @@ const port = process.env.PORT || 8080;
 app.get('/', (req, res) => {
   res.send('Hello, world!');
 });
-//hosting server
+//hosting servergit init
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
